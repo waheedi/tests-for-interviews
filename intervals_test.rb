@@ -29,5 +29,5 @@ def interval_find(arr) #arr => [ {0=>1}, {2=>4}, {6=>7}, {3=>5} ]
   while (flag) do	
     interval_find(result) and break
   end
-  return result 
+  return result unless flag
 end
