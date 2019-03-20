@@ -19,7 +19,7 @@ def interval_find_overlap(arr) #arr => [ {0=>1}, {2=>4}, {6=>7}, {3=>5} ]
   }
 
   if flag
-    interval_find(result)
+    interval_find_overlap(result)
   else
     return result
   end
